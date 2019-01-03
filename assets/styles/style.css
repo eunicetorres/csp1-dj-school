@@ -121,10 +121,6 @@
   border: 1px solid lightgray;
 }
 
-.colmisvis {
-  background-color: white;
-}
-
 .about-intro {
   text-align: center;
 }
@@ -132,12 +128,6 @@
 h3 {
   font-family: 'Montserrat', sans-serif;
   margin-top: 0px auto;
-}
-
-.misvis {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  padding-bottom: 20px;
 }
 
 .mission-image, .vision-image {
@@ -180,23 +170,24 @@ h3 {
 
 .contact-head {
    font-family: 'Montserrat', sans-serif;
+   text-align: center;
 }
 .contact-container {
   background-color: #e8e8e8;
   padding-top: 10px;
   padding-bottom: 10px;
-  height: 600px;
-
   font-family: 'Montserrat', sans-serif;
 }
 
 .contact-row {
-  padding: 20px;
-
+  margin: 20px 20px;
 }
 
+.form-group {
+  padding-left: 20px;
+}
 .btn {
-  margin: 70px 100px 0px 0px;
+  margin: 50px 0px 50px 20px;
 }
 
 /* End of Contact Page */
