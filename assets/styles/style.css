@@ -146,7 +146,7 @@ h3 {
 .gallery-container {
   background-color: #e8e8e8;
   padding-top: 10px;
-  padding-bottom: 10px;
+  /*padding-bottom: 10px;*/
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -175,7 +175,7 @@ h3 {
 .contact-container {
   background-color: #e8e8e8;
   padding-top: 10px;
-  padding-bottom: 10px;
+  /*padding-bottom: 10px;*/
   /*padding-right: 20px;*/
   font-family: 'Montserrat', sans-serif;
 }
