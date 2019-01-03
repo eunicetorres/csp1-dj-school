@@ -176,6 +176,7 @@ h3 {
   background-color: #e8e8e8;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-right: 20px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -196,4 +197,11 @@ h3 {
 	width: 100%;*/
 	position: relative;
 }
+
+.map-col {
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
 /* End of Contact Page */
