@@ -176,7 +176,7 @@ h3 {
   background-color: #e8e8e8;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 20px;
+  /*padding-right: 20px;*/
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -195,7 +195,7 @@ h3 {
 .maps {
 	/*height: 100%;
 	width: 100%;*/
-	position: relative;
+	/*position: relative;*/
 }
 
 .map-col {
