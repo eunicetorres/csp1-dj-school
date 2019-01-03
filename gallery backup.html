@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- browser compatibility -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+	<!-- CSS Links -->
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- Popper -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<!-- Java Script -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- CSS --> 
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">	 	
+</head>
+
+<body>
+	<div class="container">
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3 sticky-top">
+			<a class="navbar-brand" href="index.html">
+				<img class="ds-logo" src="assets/images/logo 1.png" alt="Dirty South">
+
+			</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggling-navbar" aria-controls="toggling-navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse justify-content-end" id="toggling-navbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link px-3" href="home.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link px-3" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link px-3 active" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link px-3" href="contact.html">Contact</a>
+					</li> 
+				</ul>
+			</div>
+
+		</nav>
+
+		<!-- End of Navigation -->
+
+		<h1 class="page-title text-center animated fadeInDown slow">Gallery</h1>
+
+		<div class="gallery-container">
+			<div class="row gallery-row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<img height="196px" width="100%" src="assets/images/gallerypic1.jpg" data-toggle="modal" data-target="#humkar1" class="polaroid-images zoom-in">
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<img height="196px" width="100%" src="assets/images/gallerypic2.jpg" data-toggle="modal" data-target="#humkar2" class="polaroid-images zoom-in">
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<img height="196px" width="100%" src="assets/images/gallerypic3.jpg" data-toggle="modal" data-target="#humkar3" class="polaroid-images zoom-in">
+				</div>
+			</div>
+			<div class="row gallery-row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<img height="196px" width="100%" src="assets/images/gallerypic4.jpg" data-toggle="modal" data-target="#humkar4" class="polaroid-images zoom-in">
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<img height="196px" width="100%" src="assets/images/gallerypic5.jpg" data-toggle="modal" data-target="#humkar5" class="polaroid-images zoom-in">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<img height="196px" width="100%" src="assets/images/gallerypic6.jpg" data-toggle="modal" data-target="#humkar6" class="polaroid-images zoom-in">
+				</div>
+			</div>
+
+			<div class="modal fade" id="humkar1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Reception</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body modal-content">
+							<img src="assets/images/gallerypic1.jpg" style="height:400px; width="800px">
+						</div>
+						<div class="modal-footer">
+							<p>This is the main reception area for the hospital. It is also referred to as foyer, lobby, or entrance hall.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="modal fade" id="humkar2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">CT Scan</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body modal-content">
+							<img src="assets/images/gallerypic2.jpg" style="height:400px; width="800px">
+						</div>
+						<div class="modal-footer">
+							<p>Our computerized tomography (CT) Scan unit combines a series of X-ray images taken from different angles around the body and uses computer processing to create cross-sectional images of the bones, blood vessels, and soft tissues inside the body.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="modal fade" id="humkar3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Consultation Room</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body modal-content">
+							<img src="assets/images/gallerypic3.jpg" style="height:400px; width="800px">
+						</div>
+						<div class="modal-footer">
+							<p>Patients do initial consultation and examination with our doctors designated rooms, before they are given diagnosis or asked to undergo further medical assessment or treatment.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="modal fade" id="humkar4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Operation Room</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body modal-content">
+							<img src="assets/images/gallerypic4.jpg" style="height:400px; width="800px">
+						</div>
+						<div class="modal-footer">
+							<p>Our operation rooms are well-equipped for both surgical and non-surgical procedures. Operations are also monitored to ensure that standard medical practices are being performed well.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="humkar5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Semi-Private Ward</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body modal-content">
+							<img src="assets/images/gallerypic5.jpg" style="height:400px; width="800px">
+						</div>
+						<div class="modal-footer">
+							<p>Non-VIP rooms such as semi-private wards are well maintained. Most stays in our semi-private wards are waived free of charge upon processing of their healthcard claims.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="modal fade" id="humkar6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Kid-Friendly Rooms</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body modal-content">
+							<img src="assets/images/gallerypic6.jpg" style="height:400px; width="800px">
+						</div>
+						<div class="modal-footer">
+						<p>Children are less hesitant to undergo medical assessment and treatment in our hospital, since we have created a fun atmosphere for them in-house.</p><!-- <button type="button" class="btn btn-success" data-toggle="modal" data-target="#humkar5">Previous</button>
+						<button type="button" class="btn btn-secondary"  disabled="true">Next</button> -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div class="footer bg-dark">
+			<div class="row no-gutters">
+				<div class="footer-img col-lg-6 col-12 d-flex justify-content-lg-end justify-content-center px-2">
+					<img class="ds-logo" src="assets/images/logo 1.png" alt="Dirty South">
+				</div>
+				<div class="footer-cr col-lg-6 col-12 d-flex justify-content-lg-start justify-content-center px-2">
+					<p>Copyright 2019</p>
+				</div>
+			</div>
+		</div>
+		<!-- End of Footer -->
+
+	</div>
+
+</body>
+</html>

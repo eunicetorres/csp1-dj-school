@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery Page - Dirty South</title>
+	<!-- browser compatibility -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+	<!-- CSS Links -->
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- Popper -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<!-- Java Script -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- CSS --> 
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">	 	
+</head>
+
+<body>
+	<div class="container">
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3 sticky-top">
+			<a class="navbar-brand" href="index.html">
+				<img class="ds-logo" src="assets/images/logo 1.png" alt="Dirty South">
+
+			</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggling-navbar" aria-controls="toggling-navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse justify-content-end" id="toggling-navbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link px-3" href="home.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link px-3" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link px-3 active" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link px-3" href="contact.html">Contact</a>
+					</li> 
+				</ul>
+			</div>
+
+		</nav>
+
+		<!-- End of Navigation -->
+
+		<h1 class="gallery-head text-center">Gallery</h1>
+
+		<div class="gallery-container">
+			<div class="row gallery-row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<img src="assets/images/gallerypic1.jpg" data-toggle="modal" data-target="#studio1" class="gallery-images">
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<img src="assets/images/gallerypic2.jpg" data-toggle="modal" data-target="#studio2" class="gallery-images">
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<img src="assets/images/gallerypic3.jpg" data-toggle="modal" data-target="#studio3" class="gallery-images">
+				</div>
+			</div>
+			<div class="row gallery-row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<img src="assets/images/gallerypic4.jpg" data-toggle="modal" data-target="#studio4" class="gallery-images">
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<img src="assets/images/gallerypic5.jpg" data-toggle="modal" data-target="#studio5" class="gallery-images">
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<img src="assets/images/gallerypic6.jpg" data-toggle="modal" data-target="#studio6" class="gallery-images">
+				</div>
+			</div>
+
+			<div class="modal fade" id="studio1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Music Production Studio 1</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body modal-content">
+							<img src="assets/images/gallerypic1.jpg" class="gallery-modal">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="studio2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">DJ 101 Studio</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body modal-content gallery-modal">
+							<img src="assets/images/gallerypic2.jpg" class="gallery-modal">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="studio3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Music Production Studio 2</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body modal-content gallery-modal">
+							<img src="assets/images/gallerypic3.jpg" class="gallery-modal">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="studio4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">DJ 201 Studio</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body modal-content gallery-modal">
+							<img src="assets/images/gallerypic4.jpg" class="gallery-modal">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="studio5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Scratch and Turtnablism Studio</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body modal-content gallery-modal">
+							<img src="assets/images/gallerypic5.jpg" class="gallery-modal">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="studio6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">DJ 101 Studio 2</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body modal-content gallery-modal">
+							<img src="assets/images/gallerypic6.jpg" class="gallery-modal">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<div class="footer bg-dark">
+				<div class="row">
+					<div class="footer-cr col-lg-12 col-12 d-flex justify-content-lg-center justify-content-center px-2">
+						<p>&copy; Copyright 2019 | Dirty South</p>
+					</div>
+				</div>
+			</div>
+			<!-- End of Footer -->
+
+		</div>
+
+	</body>
+	</html>
